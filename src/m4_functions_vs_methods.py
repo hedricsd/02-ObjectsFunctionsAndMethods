@@ -4,8 +4,8 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
   -- how they differ.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Sam Hedrick.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 # TODO: 2.
@@ -96,6 +96,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
     for _ in range(number_of_squares):
         my_turtle.draw_square(size)
         my_turtle.left(twist)
+
 
 ###############################################################################
 # TODO: 3.
