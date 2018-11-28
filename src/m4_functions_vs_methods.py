@@ -214,7 +214,7 @@ def try_methods_and_functions():
     #   function defined above.  If you don't see why, ** ASK FOR HELP. **
     ###########################################################################
     mertle = rg.SimpleTurtle('turtle')
-
+    mertle.pen = rg.Pen('blue', 5)
     mertle.backward(150)
     mertle.speed = 1
     draw_many_squares(mertle, 2, 100, 30)
